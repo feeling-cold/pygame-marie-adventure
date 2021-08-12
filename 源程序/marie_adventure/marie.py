@@ -621,7 +621,7 @@ def mainGame():
                                     score += list[i].getScore()
 
                             list[i].showScore(score,SCREENWIDTH,SCREENHEIGHT)
-                            if score > 1:
+                            if score > 50:
                                 pygame.quit()
                                 hardGame()
 
